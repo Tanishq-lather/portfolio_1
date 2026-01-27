@@ -2,11 +2,11 @@ import { Button, Card } from "flowbite-react";
 
 export function Acard(props) {
   return (
-    <Card className="max-w-screen mx-16">
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900!">
+    <Card className="min-w-screen! mx-16!">
+      <h5 className="text-2xl! font-bold! tracking-tight text-gray-900!">
         {props.title}
       </h5>
-        <p className="font-normal text-gray-700!">
+        <p className="font-normal! text-gray-700!">
         {props.description}
       </p>
       <Button className="bg-[#FEA405]! text-[#1C352D]!" href="#contact">
