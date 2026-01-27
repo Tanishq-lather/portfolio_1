@@ -9,10 +9,11 @@ export function Navbar() {
     <MotionFlowbiteNavbar
       fluid
       rounded
-      className="bg-[#FEA405] shadow-md text-[#1C352D] fixed top-0 left-0 right-0 z-10"
+      className="bg-[#FEA405]! shadow-md! text-[#1C352D]! fixed! top-0! left-0! right-0! z-10!"
       initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
     >
       <NavbarBrand href="/">
         <Airplay className="mr-3 ml-3 h-6 sm:h-9" />

@@ -7,10 +7,10 @@ export function Pcard(props) {
       imgAlt="Meaningful alt text for an image that is not purely decorative"
       imgSrc={props.src}
     >
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900!">
         {props.title}
       </h5>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
+      <p className="font-normal text-gray-700!">
         {props.description}
       </p>
     </Card>

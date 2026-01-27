@@ -3,13 +3,13 @@ import { Button, Card } from "flowbite-react";
 export function Acard(props) {
   return (
     <Card className="max-w-screen mx-16">
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900!">
         {props.title}
       </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
+        <p className="font-normal text-gray-700!">
         {props.description}
       </p>
-      <Button className="bg-[#FEA405] text-[#1C352D]" href="#contact">
+      <Button className="bg-[#FEA405]! text-[#1C352D]!" href="#contact">
         Get in touch
         <svg className="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path

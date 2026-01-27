@@ -19,7 +19,7 @@ export function Form() {
         <Checkbox id="remember" />
         <Label htmlFor="remember">Remember me</Label>
       </div>
-      <Button type="submit" className="bg-[#FEA405] text-[#1C352D] ">Submit</Button>
+      <Button type="submit" className="bg-[#FEA405]! text-[#1C352D]! ">Submit</Button>
     </form>
   );
 }
