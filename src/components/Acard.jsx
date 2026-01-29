@@ -2,7 +2,7 @@ import { Button, Card } from "flowbite-react";
 
 export function Acard(props) {
   return (
-    <Card className="flex flex-col w-full px-4 md:px-16">
+    <Card className="flex flex-col w-full bg-[#ffffff]! px-4 md:px-16">
       <h5 className="text-2xl font-bold tracking-tight text-gray-900">
         {props.title}
       </h5>

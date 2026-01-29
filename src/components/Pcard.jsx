@@ -3,7 +3,7 @@ import { Card } from "flowbite-react";
 export function Pcard(props) {
   return (
     <Card
-      className={`min-w-xs md:w-full ${props.className || ""}`}
+      className={`min-w-xs md:w-full bg-[#ffffff]! ${props.className || ""}`}
       imgAlt="Meaningful alt text for an image that is not purely decorative"
       imgSrc={props.src}
     >
