@@ -32,12 +32,12 @@ const Home = () => {
 
       </motion.div>
 
-      <motion.div id="about" className="flex flex-col justify-center items-center font-sans py-20 text-[#1C352D]! gap-8 shadow-md" initial={{ opacity: 0, y: 50 }} viewport={{ once: true }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, y: 0 }}> 
+      <motion.div id="about" className="flex flex-col justify-center items-center font-sans py-20 text-[#1C352D]! gap-8 mx-4 shadow-md" initial={{ opacity: 0, y: 50 }} viewport={{ once: true }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, y: 0 }}> 
         <h2 className="text-4xl font-bold mb-4">About the Photographer</h2>
         <Acard title="Hey, it's Rahul Sharma" description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ipsa consectetur voluptas minus asperiores perspiciatis, molestiae vero consequatur doloribus aut provident perferendis adipisci sapiente repudiandae fugiat. Eaque consequuntur rerum illum!" />
       </motion.div>
 
-      <motion.div id="contact" className="flex flex-col justify-center items-center font-sans py-20 text-[#1C352D]! gap-8 shadow-md" initial={{ opacity: 0, y: 50 }} viewport={{ once: true }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, y: 0 }}> 
+      <motion.div id="contact" className="flex flex-col justify-center items-center font-sans py-20 text-[#1C352D]! gap-8 mx-4 shadow-md" initial={{ opacity: 0, y: 50 }} viewport={{ once: true }} transition={{ duration: 0.5 }} whileInView={{ opacity: 1, y: 0 }}> 
         <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
         <Form />
       </motion.div>
